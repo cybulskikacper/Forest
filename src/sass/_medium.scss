@@ -1,1 +1,8 @@
 @use './colors' as *;
+
+@media (min-width: 576px) {
+	.nav {
+        display: flex;
+		visibility: hidden;
+	}
+}
