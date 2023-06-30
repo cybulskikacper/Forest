@@ -1,24 +1,5 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	font-size: 62.5%;
-	scroll-behavior: smooth;
-}
-
-body {
-	font-family: 'Open sans', sans-serif;
-	font-size: 1.6rem;
-	background-color: aqua;
-}
-
-.wrapper {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
-}
+@use './small.scss' as *;
+@use './medium.scss' as *;
+@use './large.scss' as *;
+@use './extralarge.scss' as *;
+@use './desktop.scss' as *;
