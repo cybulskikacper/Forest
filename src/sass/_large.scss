@@ -1,1 +1,16 @@
 @use './colors' as *;
+
+@media (min-width: 992px) {
+	.nav {
+        
+		&__item {
+			display: flex;
+		}
+	}
+
+	.burger-btn {
+		&__box {
+			display: none;
+		}
+	}
+}
