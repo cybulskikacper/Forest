@@ -2,10 +2,7 @@
 
 @media (min-width: 992px) {
 	.nav {
-        
-		&__item {
-			display: flex;
-		}
+		visibility: visible;
 	}
 
 	.burger-btn {
